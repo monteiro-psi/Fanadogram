@@ -46,7 +46,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Impact", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(12, 21);
+            label1.Location = new Point(230, 31);
             label1.Name = "label1";
             label1.Size = new Size(280, 60);
             label1.TabIndex = 0;
@@ -57,9 +57,9 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.images_removebg_preview__1_;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(276, 30);
+            pictureBox1.Location = new Point(501, 33);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(76, 49);
+            pictureBox1.Size = new Size(82, 58);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -67,7 +67,7 @@
             // 
             richTextBox1.BackColor = Color.DimGray;
             richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.Location = new Point(40, 174);
+            richTextBox1.Location = new Point(258, 184);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(276, 26);
             richTextBox1.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             richTextBox2.BackColor = Color.DimGray;
             richTextBox2.BorderStyle = BorderStyle.None;
-            richTextBox2.Location = new Point(40, 264);
+            richTextBox2.Location = new Point(258, 274);
             richTextBox2.Name = "richTextBox2";
             richTextBox2.Size = new Size(276, 25);
             richTextBox2.TabIndex = 3;
@@ -88,7 +88,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(41, 148);
+            label2.Location = new Point(259, 158);
             label2.Name = "label2";
             label2.Size = new Size(142, 23);
             label2.TabIndex = 4;
@@ -100,7 +100,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(38, 239);
+            label3.Location = new Point(256, 249);
             label3.Name = "label3";
             label3.Size = new Size(123, 23);
             label3.TabIndex = 5;
@@ -113,7 +113,7 @@
             label4.Font = new Font("Impact", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ControlLightLight;
             label4.ImageAlign = ContentAlignment.BottomCenter;
-            label4.Location = new Point(111, 81);
+            label4.Location = new Point(329, 91);
             label4.Name = "label4";
             label4.Size = new Size(74, 31);
             label4.TabIndex = 6;
@@ -125,20 +125,21 @@
             button1.BackgroundImageLayout = ImageLayout.None;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(106, 320);
+            button1.Font = new Font("Yu Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(324, 330);
             button1.Name = "button1";
             button1.Size = new Size(116, 41);
             button1.TabIndex = 7;
             button1.Text = "Entrar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Impact", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = SystemColors.ControlLightLight;
-            label5.Location = new Point(19, 412);
+            label5.Location = new Point(237, 422);
             label5.Name = "label5";
             label5.Size = new Size(174, 23);
             label5.TabIndex = 8;
@@ -150,8 +151,8 @@
             button2.BackgroundImageLayout = ImageLayout.None;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Tahoma", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(200, 407);
+            button2.Font = new Font("Yu Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(418, 417);
             button2.Name = "button2";
             button2.Size = new Size(116, 32);
             button2.TabIndex = 9;
@@ -163,7 +164,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(362, 495);
+            ClientSize = new Size(842, 495);
             Controls.Add(button2);
             Controls.Add(label5);
             Controls.Add(button1);
